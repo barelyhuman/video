@@ -11,7 +11,7 @@
   "dependencies": {},
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html -d docs/"
+    "build": "rm -rf docs && parcel build index.html -d docs/"
   },
   "author": "",
   "license": "ISC",

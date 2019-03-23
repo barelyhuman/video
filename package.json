@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "name": "video-player",
+  "version": "1.0.0",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d docs/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
